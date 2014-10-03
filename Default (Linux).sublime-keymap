@@ -1,0 +1,11 @@
+[
+  {
+    "keys": ["ctrl+f12"],
+    "command": "open_terminal"
+  },
+
+  {
+    "keys": ["f12"],
+    "command": "open_terminal_in_project_folder_enhanced"
+  }
+]

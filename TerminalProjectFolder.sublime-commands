@@ -1,0 +1,11 @@
+[
+  {
+    "caption": "TerminalProjectFolder: open terminal",
+    "command": "open_terminal"
+  },
+
+  {
+    "caption": "TerminalProjectFolder: open terminal in project folder",
+    "command": "open_terminal_in_project_folder_enhanced"
+  }
+]
