@@ -32,3 +32,8 @@ Opens terminal for first project folder.
 |---------------------------------|-------------------|--------------------------------------------------------|
 | Open terminal                   | ctrl+f12          | TerminalProjectFolder: open terminal                   |
 | Open terminal in project folder | f12               | TerminalProjectFolder: open terminal in project folder |
+
+
+### Dependencies
+
+- https://github.com/wbond/sublime_terminal
