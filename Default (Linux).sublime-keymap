@@ -1,6 +1,6 @@
 [
   {
-    "keys": ["ctrl+f12"],
+    "keys": ["ctrl+u", "ctrl+i"],
     "command": "open_terminal",
     "context": [
       {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
@@ -8,7 +8,7 @@
   },
 
   {
-    "keys": ["f12"],
+    "keys": ["ctrl+u", "i"],
     "command": "open_terminal_in_project_folder_enhanced",
     "context": [
       {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
