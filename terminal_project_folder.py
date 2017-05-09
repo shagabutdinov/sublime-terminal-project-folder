@@ -12,6 +12,14 @@ except ImportError as error:
 class OpenTerminalInProjectFolderEnhanced(sublime_plugin.WindowCommand):
   def run(self, parameters = None):
     folders = self.window.folders()
+
+    view = self.window.active_view()
+    if view != None:
+      folder = view.settings().get('terminal_project_folder', None)
+      if folder != None:
+        folders.insert(0, folder)
+
+
     if len(folders) == 0:
       return
 
